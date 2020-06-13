@@ -1,0 +1,619 @@
+
+.header {
+  background-color:orange;
+  padding-top: 15px;
+  text-align: center;
+  background: none;
+  background-size:100%;
+}
+h1 {
+background:none;
+}
+body{
+background: url("bgmain.jpg");
+background-size: 100% auto;
+background-repeat: repeat;
+background-color: transparent;
+}
+
+.h{
+   padding-right:135px;
+}
+
+.logo{
+   height:50px;
+   width:20px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size:28;
+}
+
+.topnav b {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size:28;
+}
+
+/* Style the login top navigation bar */
+.logtopnav {
+  background-color: #333;
+  width: 100%;
+}
+
+/* Style the login topnav links */
+.logtopnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size:28;
+}
+
+/* Change color on login hover */
+.logtopnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*Iframe CSS*/
+.display{
+	float:left;
+	frameborder:0;
+	width:100%;
+	height:81.2%;
+	background-color:#dddddd;
+	}
+input[type=text] {
+	background-color: white;
+	color: black;
+	width:60%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 3px solid #ddd
+	-webkit-transition:0.5s;
+	transition:0.5s;
+	outline:none;
+	text-align:center;
+	
+}
+
+input[type=email] {
+	background-color: white;
+	color: black;
+	width:60%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 3px solid #ddd
+	-webkit-transition:0.5s;
+	transition:0.5s;
+	outline:none;
+	text-align:center;
+}
+
+input[type=password] {
+	background-color: white;
+	color: black;
+	width:60%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 3px solid #ddd
+	-webkit-transition:0.5s;
+	transition:0.5s;
+	outline:none;
+	text-align:center;
+}
+input[type=submit] {
+  width: auto;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 1px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:14px;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: orange;
+}
+
+textarea {
+	background-color: white;
+	color: black;
+	width:60%;
+	padding: 12px 12px;
+	box-sizing: border-box;
+	border: 3px solid #ddd
+	-webkit-transition:0.5s;
+	transition:0.5s;
+	outline:none;
+	text-align:center;
+	display:block;
+}
+div.signup {
+ width:100%;
+}
+div.formarea {
+  border-radius: 5px;
+  background-color: none;
+  padding-top: 36px;
+  padding-bottom:100%;
+  width:205px;
+  height:auto;
+  float:left;
+}
+div.rightside{
+  border-radius: 5px;
+  background-color: none;
+  padding-top: 0px;
+  width:auto;
+  height:auto;
+}
+
+/* This is for the tables at the bottom of home page*/
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:none;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:none;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+
+/*This is for the main page scrolling photos*/
+
+#aboutus {
+	padding:8px 16px;
+	float:left;
+	width:150px;
+	border:1px;
+	display:block;
+	
+	border-color:black;
+	 }
+
+
+.aboutus-color,.aboutus-hover-color:hover{
+	color:#fff!important;
+	background-color:#333!important
+	}
+
+.aboutmenu {
+	 width:30%;
+	 display:block;
+	 padding:8px 16px;
+	 text-align:center;
+	 border:2px;
+	 white-space:normal;
+	 float:left;
+	 border-color:black;
+	
+	
+	}
+
+
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 5px auto;
+ 
+}
+
+ 
+header h1 {
+ text-align: center;
+ font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+ 
+}
+ 
+header p {
+ font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+ text-align: justify;
+}
+ 
+/*photobanner*/
+ 
+.photobanner {
+ height: 550px;
+ width: 5550px;
+ margin-bottom: 100px;
+}
+/*keyframe animations*/
+.first {
+ -webkit-animation: bannermove 45s linear infinite;
+    -moz-animation: bannermove 45s linear infinite;
+     -ms-animation: bannermove 45s linear infinite;
+      -o-animation: bannermove 45s linear infinite;
+         animation: bannermove 45s linear infinite;
+       }
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3125px;
+ }
+ 
+}
+header.photos{
+	background-color: none;
+	padding:0;
+}
+
+/*project div*/
+.tiger {
+  padding: 0px;
+  /*opacity: 0.1;*/
+}
+
+.projectheader {
+  position:relative;
+  bottom:520px;
+  width: 45%;
+  background-color: #9932CC;
+  color: white;
+}
+
+.projectcontainer {
+  position:relative;
+  bottom:340px;
+  width: 58.25%;
+  margin: auto;
+  background-color: #ddd;
+}
+
+.project {
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: #9932CC;
+}
+
+/*events div*/
+div.eventsdiv {
+	display:block;
+	align-items: center;
+	width:80%;
+	height:100%;
+        background: none;
+        background-size:80%;
+	position:static;
+        padding-top:10px;
+        padding-bottom:100px;
+	border-radius:4px;
+	transition: all 0.25s ease;
+
+}
+div.eventsdiv>div{
+	width:100%;
+	height:auto;
+	margin:20px;
+	border-radius:3px;
+	background-color: #ddd;
+        padding-top:10px;
+	padding-bottom:10px;
+        white-space: pre-wrap;
+	position:static;
+	box-shadow: 10px 10px 10px #888888;
+	transition: all 0.25s ease;
+}
+div.eventsdiv.container:hover{
+	background-color:blue;
+}
+
+
+
+/*register div's*/
+.register {
+	width:100%;
+	background: none;
+        background-size:100%;
+}
+
+.login {
+	/*width:100%;*/
+	background: none;
+        background-size:100%;
+}
+
+/*table for events*/
+
+.ev  {border-collapse:collapse;border-spacing:0;width:500px;}
+.ev td{font-family:Arial, sans-serif;font-size:20px;padding:1px 1px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:none;}
+.ev th{font-family:Arial, sans-serif;font-size:30px;font-weight:normal;padding-top:25px; padding-bottom:10px; padding-left:10px; padding-right:10px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:none; width:300px;word-wrap:break-word;}
+.ev .ev-events{text-align:center;vertical-align:top font-size:3px;}
+.ev .ev-events2{text-align:center;vertical-align:top}
+.ev .ev-events3{text-align:center;vertical-align:top}
+
+.fill{
+object-fit:contain;
+}
+/* this is for the dropdown menu for the option on the request page*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: orange;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: orangered;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* this is for the sidbar on the request info page*/
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Dropdown for admin on login portal*/
+.dropbtn {
+   background-color: #333;
+   width: 100%;
+   color: #f2f2f2;
+   padding: 10px 30px;
+   font-size: 28px;
+   border: none;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+   margin-right: 170px;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #ddd;
+   width: 100%;
+   z-index:1;
+}
+
+.dropdown-content a {
+   color: black;
+   text-align: center;
+   padding: 10px 15px;
+   text-decoration: none;
+   display: block;
+   width: 99%;
+}
+
+.dropdown-content a:hover {
+   background-color: #f1f1f1;
+   border: 2px solid black;
+   border-color: #333;
+   width: 88%;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+   text-align: center;
+   width: 100%;
+}
+
+.dropdown:hover .dropbtn {
+   background-color: #ddd;
+   color: black;
+   width: 100%;
+}
+
+/*Explore table*/
+#explore {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#explore td, #explore th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#explore tr:nth-child(even){background-color: grey;}
+
+#explore tr:nth-child(odd){background-color: #C0C0C0;}
+
+#explore tr:hover {background-color: #ddd;}
+
+#explore th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+/*Update table admin*/
+#update {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#update td, #update th {
+  border: 1px solid #333;
+  padding: 9px;
+}
+
+#update tr:nth-child(even){background-color: grey;}
+
+#update tr:nth-child(odd){background-color: #C0C0C0;}
+
+#update th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/*logout bar*/
+.alert {
+  padding: 20px;
+  background-color: #9932CC;
+  color: white;
+  font-size:28;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+
